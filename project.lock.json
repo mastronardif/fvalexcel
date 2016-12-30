@@ -1,0 +1,64 @@
+{
+  "version": 2,
+  "targets": {
+    ".NETFramework,Version=v4.6": {
+      "EPPlus/3.1.3.3": {
+        "type": "package",
+        "compile": {
+          "lib/net35/EPPlus.dll": {}
+        },
+        "runtime": {
+          "lib/net35/EPPlus.dll": {}
+        }
+      },
+      "EPPlus.Extensions/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "EPPlus": "3.1.3.3"
+        },
+        "compile": {
+          "lib/net40/EPPlus.Extensions.dll": {}
+        },
+        "runtime": {
+          "lib/net40/EPPlus.Extensions.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "EPPlus/3.1.3.3": {
+      "sha512": "bPFYXhwTB7ByFBcIQo1sSBTyQ+cmQJK0JJxUZRqYjenns75+yZGw1AmhARgph/lH8cbvEzEOaw7qkv5T58YPrw==",
+      "type": "package",
+      "path": "epplus/3.1.3.3",
+      "files": [
+        "epplus.3.1.3.3.nupkg.sha512",
+        "epplus.nuspec",
+        "lib/net35/EPPlus.XML",
+        "lib/net35/EPPlus.dll",
+        "readme.txt"
+      ]
+    },
+    "EPPlus.Extensions/1.0.0": {
+      "sha512": "bfx8YDmCyLWo1cqildEGJR3f/H9Q+6hxDC9d+nDQTmoRU6XUDJRwNsMIGgWslidRt+krmad942HP3cTzWDW7Bw==",
+      "type": "package",
+      "path": "epplus.extensions/1.0.0",
+      "files": [
+        "epplus.extensions.1.0.0.nupkg.sha512",
+        "epplus.extensions.nuspec",
+        "lib/net40/EPPlus.Extensions.dll"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "": [],
+    ".NETFramework,Version=v4.6": [
+      "EPPlus >= 3.1.3.3",
+      "EPPlus.Extensions >= 1.0.0"
+    ]
+  },
+  "tools": {},
+  "projectFileToolGroups": {},
+  "packageFolders": {
+    "D:\\home\\data\\Functions\\packages\\nuget": {}
+  }
+}
